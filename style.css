@@ -33,3 +33,7 @@
     .curved .waves path {
         fill: url(#my-cool-gradient) #939944;
     }
+    
+    .note path {
+        fill: url(#my-cool-gradient) yellow;
+    }
