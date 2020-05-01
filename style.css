@@ -1,0 +1,35 @@
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    .gradient {
+        width: 0;
+        height: 0;
+        position: absolute;
+    }
+    
+    .curved {
+        background: orangered;
+        color: #fff;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .curved h1 {
+        font-size: 6rem;
+    }
+    
+    .curved p {
+        font-size: 1rem;
+    }
+    
+    .curved svg {
+        display: block;
+    }
+    
+    .curved .waves path {
+        fill: url(#my-cool-gradient) #939944;
+    }
