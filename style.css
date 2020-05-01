@@ -12,10 +12,13 @@
     }
     
     .curved {
-        background: orangered;
+        background: rgb(255, 132, 88);
         color: #fff;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     
     .curved h1 {
@@ -32,6 +35,11 @@
     
     .curved .waves path {
         fill: url(#my-cool-gradient) #939944;
+    }
+    
+    .note {
+        text-align: center;
+        margin: auto;
     }
     
     .note path {
