@@ -1,104 +1,118 @@
-@font-face {
-    font-family: 'noteblk';
-    src: url('./icomoon/fonts/noteblk.woff'), url('./icomoon/fonts/noteblk.svg'), url('./icomoon/fonts/noteblk.ttf'), url('./icomoon/fonts/noteblk.eot');
-}
-
-@font-face {
-    font-family: 'icomoon';
-    src: url('./icomoon-v1.0/fonts/icomoon.woff'), url('./icomoon-v1.0/fonts/icomoon.svg'), url('./icomoon-v1.0/fonts/icomoon.ttf'), url('./icomoon-v1.0/fonts/icomoon.ttf');
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-}
-
-.gradient {
-    width: 0;
-    height: 0;
-    position: absolute;
-}
-
-.curved {
-    background: rgb(255, 132, 88);
-    color: #fff;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-.curved h1 {
-    font-size: 6rem;
-}
-
-.curved p {
-    font-size: 1rem;
-}
-
-.curved svg {
-    display: block;
-}
-
-.curved .waves path {
-    fill: url(#my-cool-gradient) #939944;
-}
-
-.note {
-    text-align: center;
-    margin: auto;
-}
-
-.note path {
-    fill: url(#my-cool-gradient) yellow;
-}
-
-.icon-noteblk:before {
-    font-family: 'noteblk';
-    font-weight: 500;
-    font-size: 6em;
-    background-color: #f3ec78;
-    background-image: linear-gradient(-45deg, blue, purple, cyan);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
-.icon-menu1left:before {
-    display: inline-block;
-    font-size: 8em;
-    line-height: 1em;
-    background-color: #f3ec78;
-    background-image: linear-gradient(90deg, blue, yellow, red);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
-.icon-menu1right:before {
-    display: inline-block;
-    font-size: 8em;
-    line-height: 1em;
-    background-color: #f3ec78;
-    background-image: linear-gradient(90deg, red, yellow, blue);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
-
-/* to align the text on same middle line: */
-
-span {
-    display: inline-block;
-    vertical-align: middle;
-}
+        @font-face {
+            font-family: 'noteblk';
+            src: url('./icomoon/fonts/noteblk.woff'), url('./icomoon/fonts/noteblk.svg'), url('./icomoon/fonts/noteblk.ttf'), url('./icomoon/fonts/noteblk.eot');
+        }
+        
+        @font-face {
+            font-family: 'icomoon';
+            src: url('./icomoon-v1.0/fonts/icomoon.woff'), url('./icomoon-v1.0/fonts/icomoon.svg'), url('./icomoon-v1.0/fonts/icomoon.ttf'), url('./icomoon-v1.0/fonts/icomoon.ttf');
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .gradient {
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+        
+        .curved {
+            background: rgb(28, 93, 131);
+            color: #fff;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 0 5rem 0 5rem;
+        }
+        
+        .curved h1 {
+            font-size: 6rem;
+            margin-top: 0;
+        }
+        
+        .curved p {
+            font-size: 1rem;
+        }
+        
+        .curved svg {
+            display: block;
+        }
+        
+        .curved .waves path {
+            fill: url(#my-cool-gradient) #939944;
+        }
+        
+        .curvedtop {
+            background: linear-gradient(-45deg, blue, purple, cyan);
+            color: #fff;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 0 5rem 0 5rem;
+        }
+        
+        .curvedtop .wavestop path {
+            fill: rgb(28, 93, 131);
+        }
+        
+        .note {
+            text-align: center;
+            margin: auto;
+        }
+        
+        .note path {
+            fill: url(#my-cool-gradient) yellow;
+        }
+        
+        .icon-noteblk:before {
+            font-family: 'noteblk';
+            font-weight: 500;
+            font-size: 6em;
+            background-color: #f3ec78;
+            background-image: linear-gradient(-45deg, blue, purple, cyan);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+        
+        .icon-menu1left:before {
+            display: inline-block;
+            font-size: 8em;
+            line-height: 1em;
+            background-color: #f3ec78;
+            background-image: linear-gradient(90deg, blue, yellow, red);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+        
+        .icon-menu1right:before {
+            display: inline-block;
+            font-size: 8em;
+            line-height: 1em;
+            background-color: #f3ec78;
+            background-image: linear-gradient(90deg, red, yellow, blue);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+        /* to align the text on same middle line: */
+        
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
