@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'noteblk';
-    src: url('/icomoon/fonts/noteblk.woff'), url('/icomoon/fonts/noteblk.svg'), url('/icomoon/fonts/noteblk.ttf'), url('/icomoon/fonts/noteblk.eot');
+    src: url('./icomoon/fonts/noteblk.woff'), url('./icomoon/fonts/noteblk.svg'), url('./icomoon/fonts/noteblk.ttf'), url('./icomoon/fonts/noteblk.eot');
 }
 
 body {
